@@ -1,0 +1,17 @@
+body {
+	font-size: 14px;
+	color: black;
+	background: linear-gradient(to bottom, white, black) fixed;
+}
+
+h1 {
+	color: black;
+	background: linear-gradient(to bottom, white, black) fixed;
+	text-align: center;
+	box-shadow: 2px 2px 3px;
+}
+
+html{
+	height: 100%
+}
+
