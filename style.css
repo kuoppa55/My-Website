@@ -15,3 +15,33 @@ html{
 	height: 100%
 }
 
+ul {
+	padding: 0;
+	margin: 0;
+	border-width: 10px;
+	border-color: black;
+	text-align: center;
+	display: inline-block;
+}
+
+li {
+	padding: 0;
+	margin: 0;
+	display: inline;
+	position: relative;
+	border: 1px solid black;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+ul ul {
+	position: absolute;
+	display: none;
+	
+}
+
+li:hover ul {
+	display: block;
+	text-align: center;
+}
+
