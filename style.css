@@ -8,7 +8,6 @@ h1 {
 	color: black;
 	background: linear-gradient(to bottom, white, black) fixed;
 	text-align: center;
-	box-shadow: 2px 2px 3px;
 }
 
 html{
@@ -18,30 +17,18 @@ html{
 ul {
 	padding: 0;
 	margin: 0;
-	border-width: 10px;
-	border-color: black;
 	text-align: center;
-	display: inline-block;
 }
 
 li {
-	padding: 0;
-	margin: 0;
-	display: inline;
-	position: relative;
-	border: 1px solid black;
-	padding-left: 25px;
-	padding-right: 25px;
+		display: inline-block;
+		padding: 0.5em;
+		margin: 0.5em;
 }
 
-ul ul {
-	position: absolute;
-	display: none;
-	
+img {
+	border-radius: 10px;
+	width: 45px;
+	height: 45px;
+	float: right;
 }
-
-li:hover ul {
-	display: block;
-	text-align: center;
-}
-
