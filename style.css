@@ -1,5 +1,6 @@
 body {
-	font-size: 14px;
+	font-size: 20px;
+	font-family: Century Gothic, sans-serif;
 	color: black;
 	background: linear-gradient(to bottom, white, black) fixed;
 }
@@ -24,11 +25,31 @@ li {
 		display: inline-block;
 		padding: 0.5em;
 		margin: 0.5em;
+		text-decoration: none;
 }
 
 img {
+	
 	border-radius: 10px;
 	width: 45px;
 	height: 45px;
-	float: right;
+	float: bottom
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+    color: white
+}
+
+a:active {
+	color: white;
+    text-decoration: none;
 }
